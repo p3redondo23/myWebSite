@@ -1,0 +1,58 @@
+<html>
+<head>
+<script language = "JavaScript">
+
+var number = 0; // global variable
+var myList = [ "Anne", "Bob", "Cathy", "Doug" ]; // Global array (list)
+
+function tester()
+{
+/*
+    // Variable to store user input
+    var answer = prompt("What is your name?");
+    // confirm(Do you want to play again);
+    
+    // "text goes here" is string literal.
+	alert("Welcome to my site,"+ answer);
+
+    var counter = 0;// local variable
+    number = number - 1; // = assignment operator
+    if( number == 0) // == test for equality
+    {
+        alert("Blastoff!!");
+        number = 10;
+    }
+    else
+    {
+    alert(number);
+    }
+    */
+    
+    alert(myList[number]);
+    number = number+1;
+    if(number>3)
+       {
+       number=0;
+       }
+    
+}
+
+ //
+</script>
+
+</head>
+<body>
+<center> 
+<h1> JavaScript Tester </h1>
+
+<br/>
+<br/>
+
+<input type="button" value="Click Me" onClick="tester()">
+
+    <br/>
+<br/>
+Click <a href="index.html">here</a> to return to my home page.
+</center>
+</body>
+</html>
